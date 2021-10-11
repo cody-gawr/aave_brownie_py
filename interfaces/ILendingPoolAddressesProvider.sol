@@ -2,5 +2,5 @@
 pragma solidity 0.6.6;
 
 interface ILendingPoolAddressesProvider {
-    function getLendingPool() public view returns (address);
+    function getLendingPool() external view returns (address);
 }
